@@ -1,0 +1,133 @@
+/* Reset default styles */
+/* Skills Section Styles */
+#skills {
+    padding: 80px 0;
+}
+.cenn{
+    font-size: large;
+}
+.col-lg-4{
+    text-align: center;
+}
+.col-lg-6{
+    font-size: x-large;
+}
+
+#skills h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+#skills h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#skills ul {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+#skills ul li {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.skill-name {
+    display: inline-block;
+    width: 100px;
+}
+
+.progress {
+    height: 20px;
+    background-color: #f8f8f8;
+}
+
+.progress-bar {
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #ff6f00;
+}
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set some global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+#about {
+    background-color: #f8d7d2;
+}
+#skills {
+    background-color: #f8d7d7;
+}
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h1,
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
